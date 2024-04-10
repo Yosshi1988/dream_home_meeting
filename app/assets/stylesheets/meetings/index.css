@@ -1,0 +1,39 @@
+.main {
+  width: 100vw;
+  padding: 50px 0px;
+}
+
+.main-contents {
+  height: 100%;
+}
+
+.main-contents-list-top {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.main-contents-list-bottom {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.contents-image {
+  height: 30vh;
+  width: 45vh;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.contents-name {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.contents-link {
+  text-decoration: none;
+color: black;
+}
+

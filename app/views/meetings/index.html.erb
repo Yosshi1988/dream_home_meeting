@@ -1,0 +1,50 @@
+<%= render "shared/header" %>
+
+<div class="main">
+  <div class="main-contents">
+    <%# メインコンテンツの上段３つの表示 %>
+    <ul class = "main-contents-list-top">
+      <li class = "list-item">
+        <%= link_to image_tag("図面.jpg", class:"contents-image") %>
+        <h3 class='contents-name'>
+          <%= link_to "平面図・立面図", "#", class:"contents-link" %>
+        </h3>
+      </li>
+      <li class = "list-item">
+        <%= link_to image_tag("電気図面.jpg", class:"contents-image") %>
+        <h3 class='contents-name'>
+          <%= link_to "電気図面・照明関係", "#", class:"contents-link" %>
+        </h3>
+      </li>
+      <li class = "list-item">
+        <%= link_to image_tag("住宅設備.jpg", class:"contents-image") %>
+        <h3 class='contents-name'>
+          <%= link_to "住宅設備・建具関係", "#", class:"contents-link" %>
+        </h3>
+      </li>
+    </ul>
+    <%# メインコンテンツの下段3つの表示 %>
+    <ul class = "main-contents-list-bottom">
+      <li class = "list-item">
+        <%= link_to image_tag("図面.jpg", class:"contents-image") %>
+        <h3 class='contents-name'>
+          <%= link_to "外装関係", "#", class:"contents-link" %>
+        </h3>
+      </li>
+      <li class = "list-item">
+        <%= link_to image_tag("電気図面.jpg", class:"contents-image") %>
+        <h3 class='contents-name'>
+          <%= link_to "内装関係", "#", class:"contents-link" %>
+        </h3>
+      </li>
+      <li class = "list-item">
+        <%= link_to image_tag("住宅設備.jpg", class:"contents-image") %>
+        <h3 class='contents-name'>
+          <%= link_to "その他", "#", class:"contents-link" %>
+        </h3>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<%= render "shared/footer" %>

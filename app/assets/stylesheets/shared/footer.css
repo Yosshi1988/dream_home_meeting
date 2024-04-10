@@ -1,0 +1,17 @@
+.footer {
+  width: 100vw;
+  padding: 3vh 0;
+  color: #FFF;
+  background-color: darkorange;
+  text-align: center;
+}
+
+.footer-logo {
+  width: 10vw;
+  text-decoration: none;
+  color: white;
+}
+
+.footer p {
+  font-size: 14px;
+}

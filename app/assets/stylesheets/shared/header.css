@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.top-page-header {
+  width: 100vw;
+  padding: 1vh 5vw;
+  background-color:darkorange;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.application-name {
+  text-decoration: none;
+  color: white;
+}
+
+.lists-right {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.login {
+  text-decoration: none;
+  margin-right: 3vw;
+  color: white;
+  font-size: large;
+}
+
+.sign-up {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
